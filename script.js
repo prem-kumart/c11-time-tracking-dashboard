@@ -50,8 +50,8 @@ const dataExtraction = async function(timeline,addText){
 }
 
 
-dataExtraction('daily','Yesterday');
-btnDaily.style.color = 'white';
+dataExtraction('daily','weekly');
+btnWeekly.style.color = 'white';
 
 btnDaily.addEventListener('click',()=>{
      
